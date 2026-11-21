@@ -1,6 +1,5 @@
 ---
-title: Welcome to Quartz
+title: XINYU ZHANG's PAGE
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+Time-Series Forecasting, World Model(JEPA)
