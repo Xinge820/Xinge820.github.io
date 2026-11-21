@@ -16,9 +16,8 @@ title: About Me
 </style>
 
 <div class="xz-hero">
-  <img class="xz-avatar" src="./avatar.jpg" alt="Portrait of Xinyu Zhang">
   <h1>Xinyu Zhang</h1>
-  <p>[Your role] · [Your university]</p>
+  <p>[MS Student] · [Hangzhou Dianzi University]</p>
   <p>I study how models can learn useful representations from time series and use them to forecast the future.</p>
   <div class="xz-tags">
     <span>Time Series Forecasting</span>
