@@ -15,7 +15,7 @@ title: About Me
 
 <div class="xz-hero">
   <h1>Xinyu Zhang</h1>
-  <p>I study how models can learn useful representations from time series and use them to forecast the future.</p>
+  <p>My research focuses on time series forecasting and world models.</p>
   <div class="xz-tags">
     <span>Time Series Forecasting</span>
     <span>World Models</span>
