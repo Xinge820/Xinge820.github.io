@@ -3,53 +3,37 @@ title: About Me
 ---
 
 <style>
-.xz-hero { text-align: center; padding: 2rem 0 1.5rem; }
-.xz-hero .xz-avatar { width: 120px; height: 120px; object-fit: cover; border-radius: 50%; border: 3px solid var(--lightgray); }
-.xz-hero h1 { font-size: 2.1rem; margin: .6rem 0 .35rem; }
-.xz-hero p { margin: .35rem 0; }
-.xz-tags, .xz-links { display: flex; flex-wrap: wrap; justify-content: center; gap: .5rem; margin: 1rem 0; }
-.xz-tags span { padding: .25rem .8rem; border-radius: 999px; background: var(--lightgray); font-size: .9rem; }
-.xz-links a { padding: .35rem .8rem; border: 1px solid var(--lightgray); border-radius: 6px; text-decoration: none; }
-.xz-entry { display: grid; grid-template-columns: 8rem 1fr; gap: .75rem; margin: .75rem 0; padding: .85rem 1rem; border-radius: 8px; border-left: 3px solid var(--secondary); background: var(--lightgray); }
-.xz-entry time { color: var(--darkgray); font-size: .85rem; }
+.xz-hero { text-align: center; padding: 1.6rem 0 1.25rem; }
+.xz-hero h1 { font-size: clamp(1.9rem, 5vw, 2.45rem); margin: 0 0 .65rem; }
+.xz-hero p { max-width: 32rem; margin: .45rem auto; }
+.xz-tags { display: flex; flex-wrap: wrap; justify-content: center; gap: .5rem; margin-top: 1rem; }
+.xz-tags span { background: var(--lightgray); border-radius: 99px; padding: .25rem .75rem; font-size: .9rem; }
+.xz-entry { display: grid; grid-template-columns: 8.25rem minmax(0, 1fr); gap: .6rem 1rem; margin: .65rem 0; padding: .85rem 1rem; border: 1px solid var(--lightgray); border-left: 3px solid var(--secondary); border-radius: 8px; }
+.xz-date { color: var(--darkgray); font-size: .9rem; }
 @media (max-width: 600px) { .xz-entry { grid-template-columns: 1fr; gap: .25rem; } }
 </style>
 
 <div class="xz-hero">
   <h1>Xinyu Zhang</h1>
-  <p>[MS Student] · [Hangzhou Dianzi University]</p>
   <p>I study how models can learn useful representations from time series and use them to forecast the future.</p>
   <div class="xz-tags">
     <span>Time Series Forecasting</span>
-    <span>Representation Learning</span>
-    <span>World Models · JEPA</span>
-  </div>
-  <div class="xz-links">
-    <a href="https://github.com/Xinge820">GitHub</a>
-    <!-- Optional: add Google Scholar, ORCID, or a public CV link here. -->
+    <span>World Models</span>
   </div>
 </div>
 
 ## Research Experience
 
 <div class="xz-entry">
-  <time>[YYYY.MM to Present]</time>
-  <div><strong>[Role · Lab or Organization]</strong><br>[One sentence on what you worked on.]</div>
+  <span class="xz-date">Sep 2026 – Present</span>
+  <div><strong>University of Yamanashi</strong><br><a href="https://www.alps-lab.org/">ALPS Lab</a></div>
 </div>
-
-## Education
-
 <div class="xz-entry">
-  <time>[YYYY to YYYY]</time>
-  <div><strong>[Degree · Field]</strong><br>[University]</div>
+  <span class="xz-date">Sep 2025 – Present</span>
+  <div><strong>Hangzhou Dianzi University</strong><br><a href="https://dbsi.hdu.edu.cn/">DBSI Lab</a></div>
 </div>
 
-## Publications & Projects
+## Study Notes
 
-- **[Paper or project title]**  
-  [Authors / venue / year] · [Paper or code link]
-
-## Notes & Knowledge Base
-
-- **[Research note title]**  
-  [One sentence on what the note explains.]
+- **[[notes/dynamics/|Dynamical Systems]]** · Notes on how systems evolve over time.
+- **[[notes/spectral-analysis/|Spectral Analysis]]** · Notes on understanding systems through their eigenvalues and modes.
